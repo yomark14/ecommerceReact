@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@500&family=Amaranth&display=swap');
+
+.App {
+  text-align: center;
+}
+#root{
+  background-color: #282c34;
+}
+img{
+  align-self: center;
+  justify-self: center;
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 15%;
+}
+.fondo {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 15px;
+  row-gap: 30px;
+  justify-content: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  font-family: 'Amaranth', sans-serif;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.precio{
+  margin-left: 60px; 
+}
+.elemento{
+  margin-left: 20px; 
+}
+button{
+  background-color: aqua;
+  color: black;
+  border-radius: 20px;
+  padding: 10px;
+  align-items: center;
+  margin-left: 30px;
+}
+
+
+
